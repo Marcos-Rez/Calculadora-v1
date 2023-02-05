@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora v1</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header id="header">
+        <h1>Super Calculadora</h1>
+        
+        <div id="entraDeDados">
+        
+                <label for="">Primeiro número (A):</label>
+                <input id="numero_a" type="number" step="1" value="10">
+           
+
+    
+                <label for="">Segundo número (B):</label>
+                <input id="numero_b" type="number" step="1" value="02">  
+                <button id="calcular">Calcular</button>     
+        </div>
+    
+
+    </header>
+
+    <main id="container">
+        <div class="container-resultado">
+            <p class="paragrafo">soma</p>
+            <span id="soma" class="resultado"></span>
+        </div>
+
+        <div class="container-resultado">
+            <p class="paragrafo">subtração A - B</p>
+            <span id="subtracaoA" class="resultado"></span>
+        </div>
+
+        <div class="container-resultado">
+            <p class="paragrafo">subtração B - A</p>
+            <span id="subtracaoB" class="resultado"></span>
+        </div>
+
+        <div class="container-resultado">
+            <p class="paragrafo">multiplicação</p>
+            <span id="multiplicacao" class="resultado"></span>
+        </div>
+
+        <div class="container-resultado">
+            <p class="paragrafo">divisão A / B</p>
+            <span id="divisaoA" class="resultado"></span>
+        </div>
+
+        <div class="container-resultado">
+            <p class="paragrafo">divisão B / A</p>
+            <span id="divisaoB" class="resultado"></span>
+        </div>
+
+        <div class="container-resultado">
+            <p class="paragrafo">potência A na base B</p>
+            <span id="potenciaA" class="resultado"></span>
+        </div>
+
+        <div class="container-resultado">
+            <p class="paragrafo">potência B na base A</p>
+            <span id="potenciaB" class="resultado"></span>
+        </div>
+
+        <div class="container-resultado">
+            <p class="paragrafo">raiz quadrada de A</p>
+            <span id="raizA" class="resultado"></span>
+        </div>
+
+        <div class="container-resultado">
+            <p class="paragrafo">raiz quadrada de B</p>
+            <span id="raizB" class="resultado"></span>
+        </div>
+
+        <div class="container-resultado">
+            <p class="paragrafo">fatorial A</p>
+            <span id="fatorialA" class="resultado"></span>
+        </div>
+
+        <div class="container-resultado">
+            <p class="paragrafo">fatorial de B</p>
+            <span id="fatorialB" class="resultado"></span>
+        </div>
+
+        <div class="container-resultado">
+            <p class="paragrafo">porcentagem de A em relação B</p>
+            <span id="porcentagemA" class="resultado"></span>
+        </div>
+
+        <div class="container-resultado">
+            <p class="paragrafo">porcentagem de B em relação A</p>
+            <span id="porcentagemB" class="resultado"></span>
+        </div>
+
+        <div class="container-resultado">
+            <p class="paragrafo">Média</p>
+            <span id="media" class="resultado"></span>
+        </div>
+    </main>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
